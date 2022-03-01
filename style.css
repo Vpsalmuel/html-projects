@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+.full-screen-container {
+    background-image: url("pexels-eberhard-grossgasteiger-572897.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #808d9fa4;
+    padding: 30px 30px;
+    min-width: 400px;
+    width: 50%;
+    max-width: 600px;
+    border-radius: 6px;
+}
+
+.img-container {
+    text-align: center;
+    margin: 0;
+    /* margin-bottom: 30px; */
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.img-container img {
+    /* margin-bottom: 40px; */
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.img-container h1 {
+    color: #121144;
+    font-weight: bold;
+    font-size: 50px;
+    /* margin-top: 10px; */
+    margin-bottom: 40px;
+}
+
+.img-container p {
+    color: #121144;
+    font-size: 20px;
+    /* margin-top: 40px; */
+    /* padding: 50px 20px; */
+    margin-bottom: 25%;
+}
+
+.img-container a {
+    text-decoration: none;
+    color: #121144;
+    font-weight: bold;
+    border: 2px solid #5f5c88;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    /* margin: 40px 20px; */
+}
